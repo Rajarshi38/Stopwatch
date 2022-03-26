@@ -5,6 +5,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #fff;
 }
 
 .container {
@@ -15,6 +16,16 @@ html {
   align-items: center;
   flex-direction: column;
   gap: 0.6rem;
+}
+.heading {
+  font-weight: 200;
+  text-transform: uppercase;
+  line-height: 59px;
+}
+#icon {
+  color: #f2c94c;
+  font-weight: 900;
+  text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
 }
 
 .clock-circle {
@@ -41,7 +52,7 @@ html {
   justify-content: center;
 }
 .actions button {
-  border: 1px solid gold;
+  border: 1px solid #f2c94c;
   border-radius: 8px;
   padding: 10px;
   color: white;
@@ -53,7 +64,7 @@ html {
 }
 
 .actions button:hover {
-  color: gold;
+  color: #f2c94c;
   transform: scale(1.1);
   border-width: 2px;
 }
